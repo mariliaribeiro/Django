@@ -1,0 +1,38 @@
+{% extends 'base.html' %}
+
+{% block corpo %}
+
+<article class ="article">
+   <div class="ui center aligned three column grid">
+        
+    <div class="column">
+  		 <form id="form" class="ui fluid form segment red" method="POST" action=".">
+          {% csrf_token %}
+          <div class="field">            
+            <h3 id='texto'>Gerar CPF</h3>
+
+            <div class="red">
+              CPF:
+              <div id="resposta">
+                {% if cpf %}
+                  {{ cpf }}
+                {% endif %}
+              </div>   
+            </div>
+
+            <div class="buttons">
+              <input type="submit" class="ui submit button green" value="Gerar"/>
+              <input type="reset" class="ui submit button green" value="Limpar" id="limpar"/>
+
+              <a href="/"><div type="submit" class="ui submit button green">Voltar</div></a>
+
+            </div>
+
+          </div>
+        </div>
+      </form>
+
+  </div>              
+</article>
+
+{% endblock%}

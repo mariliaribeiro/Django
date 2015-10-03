@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+
+{% block corpo%}
+
+<article class ="article">
+  <div class="ui center aligned three column grid">
+    <div class="column">
+	  <div id="form" class="ui fluid form segment red">
+	    <h1 id='texto'>O que você deseja fazer?</h3>
+		
+		<a href="/valida/" class="text_href"><div class="green">Validar CPF</div></a>
+		<br>
+		<a href="/gera/" class="text_href"><div class="green">Gerar CPF</div></a>
+		<br>
+		<a href="/gera_lista" class="text_href"><div class="green">Gerar lista de CPF</div></a>
+		
+	  </div>
+	</div>
+  </div>              
+</article>
+
+{% endblock %}

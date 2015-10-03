@@ -1,0 +1,67 @@
+
+.body{
+    background: #fff;
+    padding: 0%;
+    margin: 0%;
+}
+
+.ui.fluid.form.segment{
+    background-color: #FAF9FA;
+    color: #777777;
+    display: block;
+    /*display: table-cell;*/
+}
+
+.article{
+    display: block;
+    padding:0%
+}
+
+.ui.icon.input{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ui.pointing.label{
+    display: block;
+    margin-bottom: 15%;
+}
+
+.buttons{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /*width: 24%;*/
+}
+
+#texto{
+    text-align: center;
+}
+
+.text_href{
+    /*font-family:sans,sans-serif; */
+    text-decoration:none; 
+    color:white;
+
+}
+
+.input{
+    margin-bottom: 3%;
+}
+
+.green{
+    padding: 4%;
+    background: #57b66d;
+    font-weight: bold;
+}
+
+.red{
+    background:#d95c5c;
+    padding: 3%;
+    color:#fff;
+    margin-bottom: 5%;
+}
+.ui.submit.button.green{
+    font-family: inherit;
+}
